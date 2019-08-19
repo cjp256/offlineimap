@@ -22,7 +22,8 @@
 #    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
 
 import os
-from distutils.core import setup, Command
+from distutils.core import Command
+from setuptools import setup
 import offlineimap
 import logging
 from test.OLItest import TextTestRunner, TestLoader, OLITestLib
